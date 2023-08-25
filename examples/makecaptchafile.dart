@@ -1,7 +1,7 @@
 import "dart:io";
 import "dart:math";
 import "package:image/image.dart" as img;
-import "imagecaptcha.dart";
+import "../lib/imagecaptcha.dart";
 
 void main()
 {
