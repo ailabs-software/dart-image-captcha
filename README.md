@@ -8,6 +8,7 @@ A simple image captcha generator for Dart. Originally ported from the npm captch
 * No dependency on any service
 
 ## Example
+```dart
   ImageCaptcha captcha = new ImageCaptcha(80, 30);
 
   //p.color(0, 0, 0, 0);  // First color: background (red, green, blue, alpha)
