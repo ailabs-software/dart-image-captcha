@@ -11,9 +11,6 @@ A simple image captcha generator for Dart. Originally ported from the npm captch
 ```dart
   ImageCaptcha captcha = new ImageCaptcha(80, 30);
 
-  //p.color(0, 0, 0, 0);  // First color: background (red, green, blue, alpha)
-  //p.color(80, 80, 80, 255); // Second color: paint (red, green, blue, alpha)
-
   double rand = new Random().nextDouble();
 
   img.Image image = captcha.render( (rand*9000+1000).round() );
