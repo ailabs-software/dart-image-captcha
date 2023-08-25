@@ -1,0 +1,12 @@
+name: imagecaptcha
+description: Image captcha generator written in Dart.
+version: 1.0.0
+#homepage: https://www.example.com
+#author: root <email@example.com>
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  image: any
+
